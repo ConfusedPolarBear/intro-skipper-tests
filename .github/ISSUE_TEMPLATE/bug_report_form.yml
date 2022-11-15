@@ -29,6 +29,12 @@ body:
 
   - type: input
     attributes:
+      label: Container image and tag
+      description: Only fill in this field if you are running Jellyfin in a container
+      placeholder: jellyfin/jellyfin:10.8.7, jellyfin-intro-skipper:latest, etc.
+
+  - type: input
+    attributes:
       label: Operating System
       placeholder: Debian 11, Windows 11, etc.
     validations:
