@@ -38,7 +38,6 @@ body:
     attributes:
       label: Support Bundle
       placeholder: go to Dashboard -> Plugins -> Intro Skipper -> Support Bundle (at the bottom of the page) and paste the contents of the textbox here
-      render: markdown
     validations:
       required: true
 
@@ -46,5 +45,5 @@ body:
     attributes:
       label: Jellyfin logs
       placeholder: Paste any relevant logs here
-      render: markdown
+      render: shell
 
