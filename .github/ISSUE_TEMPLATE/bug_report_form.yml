@@ -51,5 +51,4 @@ body:
     attributes:
       label: Jellyfin logs
       placeholder: Paste any relevant logs here
-      render: shell
 
